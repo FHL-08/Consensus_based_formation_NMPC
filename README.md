@@ -1,7 +1,7 @@
 # Consensus-Based MPC for Multi-Robot Formation Control
 
 ## Introduction
-This repository contains the MATLAB implementation of a **Consensus-Based Model Predictive Control (MPC)** algorithm for multi-robot formation control. The code simulates a distributed multi-robot system where robots maintain a desired formation while following a leader robot's trajectory. The implementation incorporates **control barrier functions (CBFs)** for obstacle avoidance and ensures consensus among robots to achieve desired trajectories.
+This repository contains the MATLAB implementation of a novel **Consensus-Based Model Predictive Control (MPC)** algorithm for multi-robot formation control. The code simulates a distributed multi-robot system where robots maintain a desired formation while following a leader robot's trajectory. The implementation incorporates **control barrier functions (CBFs)** for obstacle avoidance and ensures consensus among robots to achieve desired trajectories.
 
 The code simulates a system of three robots following a virtual leader while avoiding obstacles. Each robot operates under constraints defined by its kinematics, dynamics, and inter-robot communication network.
 
